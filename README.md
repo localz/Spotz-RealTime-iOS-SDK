@@ -1,5 +1,7 @@
-Spotz SDK 3.1.4
+Spotz SDK
 ===============
+
+(For the latest documentation: https://localz.github.io/spotz-sdk-docs/)
 
 ## Adding the Spotz SDK framework to your project
 
