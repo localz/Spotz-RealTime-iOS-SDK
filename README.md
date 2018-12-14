@@ -7,7 +7,7 @@ Spotz SDK
 
 Just add the following line to your Podfile:
 ```
-pod 'SpotzSDK', :git => 'https://github.com/localz/Spotz3-iOS-SDK.git'
+pod 'SpotzSDK', :git => 'https://github.com/localz/Spotz-RealTime-iOS-SDK.git'
 ```
 
 How to use the SDK
