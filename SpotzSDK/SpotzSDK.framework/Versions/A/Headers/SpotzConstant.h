@@ -137,3 +137,10 @@ extern NSString * const SpotzLocationServicesStateChangeNotification;
  *  The new status is available in userInfo["state"]
  */
 extern NSString * const SpotzBGLocationConnectionStateChangeNotification;
+
+/**
+ *  Notification of the current GPS accuracy provided as an NSNumber. If an error occurs uploading the location, an error is also provided.
+ *  The new accuracy level is available in userInfo["accuracy"]
+ *  The error (if available) is available in userInfo["error"]
+ */
+extern NSString * const SpotzMonitoredGPSAccuracyNotification;

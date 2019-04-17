@@ -309,6 +309,16 @@
  */
 - (void) backgroundLocationRecordInterval:(int)interval;
 
+/**
+ * Start monitoring the accuracy of GPS locations. Accuracy will be reported via the SpotzMonitoredGPSAccuracyNotification notification with the accuracy provided in userInfo.
+ */
+- (void) startMonitoringLocationAccuracy;
+
+/**
+ * Stop monitoring the accuracy of GPS locations. Accuracy will no longer be reported via the SpotzMonitoredGPSAccuracyNotification notification.
+ */
+- (void) stopMonitoringLocationAccuracy;
+
 #pragma mark - App hooks
 - (void) appPerformFetchWithCompletionHandler:(void (^ _Nonnull)(UIBackgroundFetchResult))completionHandler;
 
@@ -364,3 +374,4 @@
 #endif
 
 @end
+
