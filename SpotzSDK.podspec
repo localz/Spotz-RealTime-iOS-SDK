@@ -21,4 +21,5 @@ Pod::Spec.new do |s|
 	s.frameworks = 'CoreLocation','SystemConfiguration','Foundation'
 	s.dependency 'YapDatabase/Standard/Core'
     s.dependency 'TrustKit'
+    s.dependency 'LocalzCoreSDK'
 end
