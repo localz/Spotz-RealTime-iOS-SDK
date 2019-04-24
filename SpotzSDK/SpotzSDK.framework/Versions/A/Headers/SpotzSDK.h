@@ -13,7 +13,7 @@
 #import <CoreLocation/CoreLocation.h>
 #import <CoreBluetooth/CoreBluetooth.h>
 
-#import <Foundation/Foundation.h>
+#import <LocalzCoreSDK/LocalzCoreSDK.h>
 #import "SpotzErrorType.h"
 #import "SpotzSiteDetails.h"
 #import "SpotzData.h"
