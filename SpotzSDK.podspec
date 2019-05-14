@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 			Copyright 2019 Localz Pty Ltd.
 			LICENSE
 	}
-	s.version = '3.4.1'
+	s.version = '3.4.2'
 	s.summary = 'iOS library for Localz Platform'
 	s.homepage = 'http://localz.com'
 	s.author = { 'Localz Pty Ltd' => 'info@localz.com' }
@@ -17,9 +17,8 @@ Pod::Spec.new do |s|
 	s.vendored_frameworks = 'SpotzSDK/SpotzSDK.framework'
 	s.requires_arc = true
 	s.source = { :git => 'https://github.com/localz/Spotz-RealTime-iOS-SDK.git' }
-    s.resource = 'SpotzSDK/**/*.der'
 	s.frameworks = 'CoreLocation','SystemConfiguration','Foundation'
 	s.dependency 'YapDatabase/Standard/Core'
     s.dependency 'TrustKit'
-    s.dependency 'LocalzCoreSDK'
+    s.dependency 'LocalzCoreSDK', '~> 1.1.0'
 end
