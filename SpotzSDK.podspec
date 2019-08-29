@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-	s.name	= 'SpotzSDK'
+	s.name	= 'SpotzRTSDK'
 	s.platform = :ios,'9.0'
 	s.ios.deployment_target = '9.0'
 	s.license = {
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 			Copyright 2019 Localz Pty Ltd.
 			LICENSE
 	}
-	s.version = '3.4.2'
+	s.version = '3.4.3'
 	s.summary = 'iOS library for Localz Platform'
 	s.homepage = 'http://localz.com'
 	s.author = { 'Localz Pty Ltd' => 'info@localz.com' }
